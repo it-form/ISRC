@@ -65,4 +65,4 @@ jobs:
 
       - name: Tester la connexion MySQL
         run: |
-          docker exec BDP mysql -uwpuser -pwppass -e "SHOW DATABASES;"
+          docker exec BDB mysql -uwpuser -pwppass -e "SHOW DATABASES;"
